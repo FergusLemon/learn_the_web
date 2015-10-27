@@ -6,7 +6,7 @@ get '/' do
 end
 
 get '/named-cat' do
-  p params
+ p params
  @name_randomizer = params[:name]
  erb(:index)
 end
